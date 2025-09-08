@@ -1,7 +1,5 @@
 import os
+#we are using Os module to get the directry
 print(os.listdir())
-print(os.get_blocking())
 
-
-
-print(os.chdir("/"))
+print(os.getcwd())
